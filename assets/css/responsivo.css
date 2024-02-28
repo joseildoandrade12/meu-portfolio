@@ -155,4 +155,7 @@
   .home {
     margin-top: 30px;
   }
+  .home p{
+    margin-bottom: 40px;
+  }
 }
