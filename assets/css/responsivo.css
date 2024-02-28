@@ -1,0 +1,155 @@
+@media (max-width: 1160px) {
+  .caixas-texto {
+    max-height: 700px;
+    align-items: center;
+    justify-content: center;
+  }
+  .secao-contato {
+    align-self: center;
+    width: 200px;
+    margin: 20px;
+  }
+  .secao-contato p {
+    font-size: 0.825rem;
+  }
+  .container-content > h1,
+  .content-home h1,
+  .habilidades h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .container-content p {
+    font-size: 1rem;
+  }
+  .contato > h1 {
+    text-align: left;
+    display: inline-block;
+    width: 250px;
+  }
+  .contato > p {
+    position: static;
+    display: inline-block;
+    text-align: left;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 990px) {
+  .imagem-home img {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 850px) {
+  .caixas-texto {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .secao-contato {
+    align-self: center !important;
+    width: 300px;
+  }
+  .projetos {
+    grid-template-columns: repeat(2, 250px);
+  }
+  .secao {
+    align-self: center;
+    height: 220px !important;
+  }
+  .projeto1,
+  .projeto3,
+  .projeto5 {
+    max-height: 220px;
+  }
+  .home {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-content {
+    margin: 120px auto;
+  }
+  .redes-sociais {
+    right: 0;
+  }
+  .imagem-home {
+    margin-top: 60px;
+  }
+  .menu-nav ul {
+    display: none;
+  }
+  .logo-menu {
+    display: block;
+  }
+  .container-header {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 720px) {
+  .habilidades {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .habilidades h1 {
+    grid-column: 1;
+  }
+  .html {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  .css {
+    grid-row: 3;
+    grid-column: 1;
+  }
+  .javascript {
+    grid-row: 4;
+    grid-column: 1;
+  }
+  .portifolio h1 {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 540px) {
+  .contato h1 {
+    margin-bottom: 5px;
+  }
+  .contato p {
+    margin-bottom: 20px;
+  }
+  .projetos {
+    grid-template-columns: 300px;
+  }
+  .secao {
+    width: 300px;
+    justify-self: center;
+  }
+  .container-content > h1,
+  .content-home h1,
+  .habilidades h1 {
+    font-size: 2.5rem;
+  }
+  .logo img {
+    width: 30px;
+    height: 30px;
+  }
+  .logo h1 {
+    font-size: 1rem;
+  }
+  .imagem-home img {
+    max-width: 300px;
+  }
+  .redes-sociais {
+    position: static;
+    margin-top: 20px;
+    margin-left: -10px;
+    padding: 10px;
+  }
+  .redes-sociais img {
+    width: 30px;
+  }
+}
