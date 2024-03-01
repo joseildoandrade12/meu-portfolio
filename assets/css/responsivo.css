@@ -4,12 +4,12 @@
     align-items: center;
     justify-content: center;
   }
-  .secao-contato {
+  .secao-resumo {
     align-self: center;
     width: 200px;
     margin: 20px;
   }
-  .secao-contato p {
+  .secao-resumo p {
     font-size: 0.825rem;
   }
   .container-content > h1,
@@ -23,12 +23,12 @@
   .container-content p {
     font-size: 1rem;
   }
-  .contato > h1 {
+  .resumo > h1 {
     text-align: left;
     display: inline-block;
     width: 250px;
   }
-  .contato > p {
+  .resumo > p {
     position: static;
     display: inline-block;
     text-align: left;
@@ -49,7 +49,7 @@
     align-items: center;
     height: 100%;
   }
-  .secao-contato {
+  .secao-resumo {
     align-self: center !important;
     width: 300px;
   }
@@ -115,10 +115,10 @@
 }
 
 @media (max-width: 540px) {
-  .contato h1 {
+  .resumo h1 {
     margin-bottom: 5px;
   }
-  .contato p {
+  .resumo p {
     margin-bottom: 20px;
   }
   .projetos {

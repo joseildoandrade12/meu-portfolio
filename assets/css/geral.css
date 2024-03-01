@@ -43,6 +43,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   padding: 20px;
+  position: relative;
 }
 .menu-nav ul {
   display: flex;
@@ -225,21 +226,21 @@ strong {
 .projeto5 {
   align-self: end;
 }
-.resumo {
+.techs {
   color: var(--gray);
   text-align: center;
   margin: 300px auto;
 }
-.resumo h1 {
+.techs h1 {
   font-size: 4rem;
   margin-bottom: 100px;
 }
-.resumo p {
+.techs p {
   font-size: 1.25rem;
   font-weight: 400;
   margin-bottom: 10px;
 }
-.resumo h2 {
+.techs h2 {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 80px;
@@ -254,17 +255,17 @@ strong {
   width: 90px;
   height: 90px;
 }
-.contato {
+.resumo {
   color: var(--gray);
   position: relative;
   margin-bottom: 0;
 }
-.contato > h1 {
+.resumo > h1 {
   text-align: right;
   font-size: 4rem;
   margin-bottom: 80px;
 }
-.contato > p {
+.resumo > p {
   max-width: 350px;
   font-size: 1.25rem;
   font-weight: 400;
@@ -283,7 +284,7 @@ strong {
   align-items: center;
   margin-bottom: 80px;
 }
-.secao-contato {
+.secao-resumo {
   border-radius: 15px;
   text-align: center;
   max-width: 350px;
@@ -292,21 +293,21 @@ strong {
   padding: 20px;
   align-self: end;
 }
-.secao-contato h1 {
+.secao-resumo h1 {
   color: var(--gray);
   font-size: 2rem;
   margin-bottom: 20px;
 }
-.secao-contato p {
+.secao-resumo p {
   max-width: 330px;
   color: var(--soft-gray);
   font-size: 1rem;
 }
-.secao-contato:nth-child(2) {
+.secao-resumo:nth-child(2) {
   background-color: var(--gray);
   align-self: start;
 }
-.secao-contato:nth-child(2) h1 {
+.secao-resumo:nth-child(2) h1 {
   color: var(--dark-gray);
 }
 .texto-alternativo {
@@ -323,4 +324,32 @@ strong {
 .texto-alternativo h2 {
   color: var(--dark-gray);
   font-size: 2rem;
+}
+.menu-mobal{
+  display: none;
+  background-color: var(--dark-gray);
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  width: 200px;
+  position: absolute;
+  right: 22px;
+  top: 50px;
+  z-index: 999;
+  border-radius: 5px;
+  border: 5px solid var(--gray);
+}
+.menu-mobal li{
+  margin: 10px;
+  padding: 10px;
+}
+.menu-mobal a{
+  font-size: 1.25rem;
+  transition: .2s ease;
+  color: var(--soft-gray);
+}
+.menu-mobal a:hover{
+  color: var(--gray);
+}
+.logo-menu:hover .menu-mobal, .logo-menu.ativo .menu-mobal{
+  display: block !important;
 }
