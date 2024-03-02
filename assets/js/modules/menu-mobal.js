@@ -7,7 +7,7 @@ export default function initMenuMobile() {
 
   eventsMenu.forEach((event) => {
     function openMenu(event) {
-      buttonMenu.classList.add("ativo");
+      buttonMenu.classList.toggle("ativo");
       menuMobal.classList.add('ativo');
       outsideClick(menuMobal, eventsMenu, () => {
         buttonMenu.classList.remove('ativo');
